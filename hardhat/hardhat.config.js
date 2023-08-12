@@ -11,6 +11,7 @@ module.exports = {
     sepolia: {
       url: QUICKNODE_HTTP_URL,
       accounts: [PRIVATE_KEY],
+      gasPrice: 20000000000, // 20 gwei
     },
   },
   etherscan: {
